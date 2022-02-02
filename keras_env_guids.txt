@@ -1,0 +1,17 @@
+Create virtual enviroment in anaconda framwork for (keras Library)
+# update the main conda 
+conda update -n base -c defaults conda
+# open cmd and give name of virtual env 
+conda create --name venv
+#activate the virtual env
+activate venv
+#install the keras
+conda install -c anaconda keras
+#install jupyter
+conda install jupyter
+#install spyder
+conda install spyder
+# install matplotlib
+conda install matplolib
+#install pandas
+conda install pandas
